@@ -1,6 +1,4 @@
 * {
-    margin: 0;
-    padding: 0;
     background: black;
     color: white;
 }
@@ -11,7 +9,7 @@ body {
     flex-direction: column;
     justify-content: space-between;
     align-items: center;
-    line-spacing: 1rem;
+    line-height: 1.5rem;
 }
 
 header {
@@ -22,15 +20,17 @@ header {
 }
 
 header img {
-    height: 2.5rem;
-    width: 2rem;
-    padding: 0.2rem;
-    border-radius: 2rem;
+    height: 8rem;
+    width: 8rem;
+    padding: 2rem;
+    border-radius: 5rem;
     overflow: hidden;
 }
 
 header h4 {
     padding: 0.2rem 0rem;
+    font-size: 2.5rem;
+    align-self: center;
 }
 
 .icon {
@@ -39,9 +39,10 @@ header h4 {
 }
 
 .nav {
-    padding: 0rem 0.5rem;
-    margin: 1rem 0.2rem;
+    padding: 0rem 1rem;
+    margin: 0rem 2rem;
     text-decoration: none;
+    font-size: 2rem;
     font-weight: bold;
     font-style: italic;
     font-family: 'Montserrat', sans-serif;
@@ -60,6 +61,14 @@ main {
     margin: 3rem 0rem;
 }
 
+main h2 {
+    font-size: 4rem;
+}
+
+main h3 {
+    font-size: 2.5rem;
+}
+
 #topsection {
     display: flex;
     justify-content: space-between;
@@ -68,10 +77,12 @@ main {
 }
 
 .contact {
-    height: 1.5rem;
-    width: 1.5rem;
-    margin-right: 0.5rem;
-    margin-left: 0.5rem;
+    align-self: center;
+    height: 4rem;
+    width: 4rem;
+    margin-right: 2rem;
+    margin-left: 2rem;
+    padding-top: 2.5rem;
 }
 
 section {
@@ -94,9 +105,10 @@ section {
     color: grey;
 }
 
-/*.mypic {
-    border-radius: 2rem;
-}*/
+.mypic img {
+    height: 48rem;
+    width: 48rem;
+}
 
 article {
     text-align: center;
@@ -107,9 +119,10 @@ article {
 }
 
 button {
-    height: 1.5rem;
-    width: 6.5rem;
-    margin: 1.5rem;
+    height: 4rem;
+    width: 16rem;
+    margin: 2rem;
+    font-size: 20px;
 }
 
 .certs {
