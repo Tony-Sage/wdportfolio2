@@ -21,7 +21,7 @@ header {
 
 header img {
     height: 8rem;
-    width: 8rem;
+    width: 6rem;
     padding: 2rem;
     border-radius: 5rem;
     overflow: hidden;
@@ -101,13 +101,17 @@ section {
     line-height: 1.6;
 }
 
+.years {
+    font-size: 24px;
+}
+
 .ptitle {
     color: grey;
 }
 
 .mypic img {
     height: 48rem;
-    width: 48rem;
+    width: 35rem;
 }
 
 article {
@@ -134,4 +138,4 @@ button {
   font-weight: 400;
   font-style: normal;
   text-align: center;
-}
+    }
