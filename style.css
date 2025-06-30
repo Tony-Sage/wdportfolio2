@@ -124,7 +124,7 @@ button {
 }
 
 /* 🌟 Mobile-responsive adjustments for ~375–480px screens */
-@media (max-width: 480px) {
+@media (min-width: 480px) {
   html {
     font-size: 14px; /* slightly smaller base font for small screens */
   }
