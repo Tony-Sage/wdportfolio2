@@ -122,3 +122,72 @@ button {
   font-style: normal;
   text-align: center;
 }
+
+/* 🌟 Mobile-responsive adjustments for ~375–480px screens */
+@media (max-width: 480px) {
+  html {
+    font-size: 14px; /* slightly smaller base font for small screens */
+  }
+
+  body {
+    padding: 1rem;
+  }
+
+  header {
+    flex-direction: column;
+    align-items: center;
+    text-align: center; /* center logo and nav */
+  }
+
+  header .icon img {
+    width: 60px;
+    height: auto;
+    margin-bottom: 0.5rem;
+  }
+
+  header nav {
+    flex-wrap: wrap;
+    gap: 0.5rem;
+    margin-top: 0.5rem;
+  }
+
+  header nav .nav {
+    font-size: 0.9rem;
+    padding: 0.4rem 0.8rem;
+  }
+
+  main {
+    padding: 1rem 0;
+  }
+
+  main h2 {
+    font-size: 1.5rem;
+    margin-bottom: 0.75rem;
+  }
+
+  .section {
+    padding: 0.75rem;
+    margin-bottom: 1rem;
+    font-size: 0.9rem;
+  }
+
+  .section h3 {
+    font-size: 1.25rem;
+    margin-bottom: 0.5rem;
+  }
+
+  .certs {
+    font-size: 0.9rem;
+    padding: 0.6rem 1rem;
+  }
+
+  footer {
+    font-size: 0.8rem;
+    padding: 1rem 0;
+  }
+
+  footer .contact {
+    width: 24px;
+    margin: 0 0.5rem;
+  }
+    }
